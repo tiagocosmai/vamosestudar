@@ -1,0 +1,1874 @@
+{
+  "assessments": [
+    {
+      "title": "Verificações Oficiais 3º Trimestre - 4ºAno",
+      "course": "4º Ano do ensino fundamental I",
+      "school": "Instituto Portortinari",
+      "AnotherInfo": "<h3>Verificações Substitutivas<h3>\n<p>Em caso de falta, o aluno/responsável terá 02 dias úteis para procurar a secretaria da escola e solicitar\no requerimento da Verificação Substitutiva, por meio de atestado médico (consultas e exames) ou\npagamento da taxa (compromissos particulares, viagens, entre outros). Caso o requerimento não seja\nsolicitado, o aluno não terá nota atribuída.</p>\n<p><b>Importante:</b> Nas Verificações Substitutivas, as taxas não serão bonificadas. Vale lembrar que outro\nprofissional da Educação irá aplicar a Verificação.</p>\n<li>\n<ul>A Verificação Substitutiva será agendada pela Coordenação Pedagógica, em contraturno,\nsomente entre os dias 04/11 a 06/11, sendo nos seguintes horários: 10h para os alunos que\nestudam no período da tarde e 15h para os que estudam no período da manhã.\n</ul>\n</li>",
+      "enabled": true,
+      "order": 0,
+      "subjects": [
+        {
+          "title": "Inglês",
+          "content": "**Unit 5 - Let's have a scavenger hunt!**\n\n**Unit 6 - What am I good at?**",
+          "icon": "🔤",
+          "date": "2025-10-21",
+          "cards": [
+            {
+              "title": "Presente Simples",
+              "description": "O presente simples indica hábitos ou fatos gerais.",
+              "imageSrc": "/data/logo-portinari.png"
+            },
+            {
+              "title": "Presente Contínuo",
+              "description": "O presente contínuo indica ações em progresso."
+            },
+            "O passado simples indica ações concluídas.",
+            "O futuro simples indica intenções ou previsões.",
+            "Uso de pronomes pessoais para sujeitos.",
+            "Diferença entre 'much' e 'many'.",
+            "Expressões de tempo ajudam a indicar quando algo acontece.",
+            "Adjetivos geralmente vêm antes do substantivo.",
+            "A forma negativa muda o verbo auxiliar.",
+            "Perguntas requerem inversão do sujeito e verbo."
+          ],
+          "questions": [
+            {
+              "question": "O presente simples é usado para hábitos.",
+              "type": "true/false",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Verdadeiro",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Falso",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "O presente contínuo indica ações habituais.",
+              "type": "true/false",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Verdadeiro",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Falso",
+                  "isCorrect": "true"
+                }
+              ]
+            },
+            {
+              "question": "O passado simples é usado para ações concluídas.",
+              "type": "true/false",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Verdadeiro",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Falso",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "O futuro simples indica intenções ou previsões.",
+              "type": "true/false",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Verdadeiro",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Falso",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Adjetivos vêm depois do substantivo em inglês.",
+              "type": "true/false",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Verdadeiro",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Falso",
+                  "isCorrect": "true"
+                }
+              ]
+            },
+            {
+              "question": "Qual destas palavras indica quantidade incontável?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Much",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Many",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Few",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Several",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Qual destas expressões indica futuro?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Will",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Was",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Had",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Is",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Qual pronome é sujeito na frase 'She runs fast'?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "She",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Runs",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Fast",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Her",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Para formar a negativa de 'He plays', usamos:",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "He does not play",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "He play not",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "He is not plays",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "He not plays",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Para perguntar 'Você gosta de música?' em inglês:",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Do you like music?",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "You like music?",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Like you music?",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Are you like music?",
+                  "isCorrect": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Espanhol",
+          "content": "**Unidad 6 - Por agua, tierra y aire**",
+          "icon": "🔠",
+          "date": "2025-10-20",
+          "cards": [
+            "Transporte por agua, tierra y aire.",
+            "Los barcos son importantes para el comercio.",
+            "Los aviones son rápidos pero caros.",
+            "El transporte terrestre es variado.",
+            "El tren facilita el comercio interno.",
+            "El transporte público es esencial.",
+            "El tráfico es un problema urbano.",
+            "La movilidad sostenible es necesaria.",
+            "La tecnología cambia la forma de transportarse.",
+            "Conocer rutas y medios optimiza los viajes."
+          ],
+          "questions": [
+            {
+              "question": "El transporte por agua es esencial para el comercio.",
+              "type": "true/false",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Verdadeiro",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Falso",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Los aviones son el medio de transporte más lento.",
+              "type": "true/false",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Verdadeiro",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Falso",
+                  "isCorrect": "true"
+                }
+              ]
+            },
+            {
+              "question": "El transporte terrestre incluye carreteras y ferrocarriles.",
+              "type": "true/false",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Verdadeiro",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Falso",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "La movilidad sostenible no es importante.",
+              "type": "true/false",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Verdadeiro",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Falso",
+                  "isCorrect": "true"
+                }
+              ]
+            },
+            {
+              "question": "El tráfico puede afectar la eficiencia del transporte.",
+              "type": "true/false",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Verdadeiro",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Falso",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "¿Qué medio se utiliza para transporte marítimo?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Barco",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Tren",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Avión",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Bicicleta",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "¿Qué medio es más rápido para largas distancias?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Avión",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Barco",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Carro",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Tren",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "¿Qué medio facilita el comercio interno?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Tren",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Avión",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Barco",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Coche",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "¿Cuál es un problema del transporte urbano?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Tráfico",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Aviones",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Barcos",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Trenes",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "¿Qué busca la movilidad sostenible?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Reducir impactos ambientales",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Aumentar tráfico",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Usar más combustibles fósiles",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Ignorar transporte público",
+                  "isCorrect": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Matemática",
+          "content": "**Capítulo 11 - Novos problemas, novos números**\n• Páginas: 20, 21 e 29\n\n**Capítulo 12 - Números racionais e suas representações fracionárias**\n• Páginas: 43, 44, 45, 46, 47, 48, 50 e 51",
+          "icon": "🔢",
+          "date": "2025-10-13",
+          "cards": [
+            "Números negativos resolvem novos problemas.",
+            "O zero é um marco na matemática.",
+            "Frações representam partes de um todo.",
+            "Números racionais são divisões exatas.",
+            "A reta numérica organiza os números.",
+            "Frações equivalentes têm o mesmo valor.",
+            "A simplificação facilita cálculos.",
+            "Decimais são outra forma de representar frações.",
+            "Operações com racionais seguem regras próprias.",
+            "A matemática explica situações do cotidiano."
+          ],
+          "questions": [
+            {
+              "question": "O zero é considerado um marco na matemática.",
+              "type": "true/false",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Verdadeiro",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Falso",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Números negativos não são usados para representar dívidas.",
+              "type": "true/false",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Verdadeiro",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Falso",
+                  "isCorrect": "true"
+                }
+              ]
+            },
+            {
+              "question": "Frações equivalentes têm o mesmo valor.",
+              "type": "true/false",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Verdadeiro",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Falso",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Decimais não podem representar frações.",
+              "type": "true/false",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Verdadeiro",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Falso",
+                  "isCorrect": "true"
+                }
+              ]
+            },
+            {
+              "question": "Operações com números racionais seguem regras próprias.",
+              "type": "true/false",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Verdadeiro",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Falso",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Qual dessas frações é equivalente a 1/2?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "2/4",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "3/4",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "1/3",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "3/2",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Qual número é negativo?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "-5",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "7",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "0",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "8",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Qual representa a fração 3/4 como decimal?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "0,75",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "0,34",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "0,25",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "1,75",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Qual operação resulta em -3 + 5?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "2",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "8",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "-8",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "-2",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Simplifique a fração 8/12.",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "2/3",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "4/6",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "1/2",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "3/4",
+                  "isCorrect": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ciências",
+          "content": "**Capítulo 11 - Um mundo quase invisível**\n• Páginas: 10, 11, 12, 13, 14, 15, 16, 20, 21 e 22\n\n**Capítulo 12 - Usando os microrganismos a nosso favor**\n• Páginas: 26, 27, 28, 34 e 35",
+          "icon": "🔬",
+          "date": "2025-10-21",
+          "cards": [
+            "Microrganismos são invisíveis a olho nu.",
+            "As bactérias podem ser benéficas ou prejudiciais.",
+            "Vírus precisam de hospedeiros para sobreviver.",
+            "Micróbios ajudam na produção de alimentos.",
+            "A fermentação é realizada por fungos e bactérias.",
+            "Alguns microrganismos vivem no corpo humano.",
+            "O uso de micróbios na medicina é fundamental.",
+            "O microscópio revelou o mundo invisível.",
+            "Antibióticos combatem bactérias específicas.",
+            "O equilíbrio de microrganismos mantém a saúde."
+          ],
+          "questions": [
+            {
+              "question": "Microrganismos podem ser vistos a olho nu.",
+              "type": "true/false",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Verdadeiro",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Falso",
+                  "isCorrect": "true"
+                }
+              ]
+            },
+            {
+              "question": "Vírus precisam de hospedeiros para sobreviver.",
+              "type": "true/false",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Verdadeiro",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Falso",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Bactérias podem ser prejudiciais ou benéficas.",
+              "type": "true/false",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Verdadeiro",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Falso",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Micróbios não são usados na produção de alimentos.",
+              "type": "true/false",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Verdadeiro",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Falso",
+                  "isCorrect": "true"
+                }
+              ]
+            },
+            {
+              "question": "Antibióticos combatem bactérias específicas.",
+              "type": "true/false",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Verdadeiro",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Falso",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Qual desses microrganismos é usado na produção de pão?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Levedura",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Vírus da gripe",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Bactéria da tuberculose",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Ácaro da poeira",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Qual destes vive no corpo humano?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Bactérias intestinais",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Vírus da gripe",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Fungo da superfície da lua",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Ameba marinha",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "O que um microscópio permite observar?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Microrganismos invisíveis a olho nu",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Planetas distantes",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Nuvens no céu",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Montanhas",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Qual microrganismo pode causar doenças?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Bactérias patogênicas",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Leveduras de pão",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Algas verdes",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Amebas marinhas",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Qual é um benefício dos microrganismos?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Produção de alimentos e medicamentos",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Causar epidemias apenas",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Nada, são inúteis",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Transformar metais",
+                  "isCorrect": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Geografia",
+          "content": "**Capítulo 6 - Produção, consumo e circulação de mercadorias**\n\n• Páginas: 92, 95, 96, 97, 104, 105 e 108",
+          "icon": "🌍",
+          "date": "2025-10-14",
+          "cards": [
+            "Produção está ligada ao trabalho humano.",
+            "Consumo reflete necessidades da sociedade.",
+            "Circulação conecta produtores e consumidores.",
+            "Transporte é essencial para a economia.",
+            "O comércio faz parte da globalização.",
+            "Mercadorias têm valor de uso e troca.",
+            "Tecnologia influencia a circulação de produtos.",
+            "Cidades concentram produção e consumo.",
+            "Logística organiza transporte de mercadorias.",
+            "Consumo consciente reduz impactos ambientais."
+          ],
+          "questions": [
+            {
+              "question": "Produção está ligada ao trabalho humano.",
+              "type": "true/false",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Verdadeiro",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Falso",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Consumo não reflete necessidades da sociedade.",
+              "type": "true/false",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Verdadeiro",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Falso",
+                  "isCorrect": "true"
+                }
+              ]
+            },
+            {
+              "question": "O transporte é essencial para a economia.",
+              "type": "true/false",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Verdadeiro",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Falso",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Cidades não concentram produção e consumo.",
+              "type": "true/false",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Verdadeiro",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Falso",
+                  "isCorrect": "true"
+                }
+              ]
+            },
+            {
+              "question": "Consumo consciente pode reduzir impactos ambientais.",
+              "type": "true/false",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Verdadeiro",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Falso",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Qual destas mercadorias tem valor de uso?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Alimento",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Ouro enterrado",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Ar poluído",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Lixo",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "O que conecta produtores e consumidores?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Circulação",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Produção",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Consumo",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Extrativismo",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "O comércio global é influenciado por:",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Globalização",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Clima local",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Somente transporte",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Solo fértil",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Qual ferramenta organiza o transporte de mercadorias?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Logística",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Balanço comercial",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Poluição",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Produção",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Tecnologia influencia principalmente:",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "A circulação de produtos",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "O valor da moeda apenas",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "A quantidade de chuva",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Somente transporte marítimo",
+                  "isCorrect": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "História",
+          "content": "**Capítulo 6 - De tão longe ao Brasil**\n\n• Páginas: 16, 17, 21, 23, 26, 27 e 30",
+          "icon": "📚",
+          "date": "2025-10-22",
+          "cards": [
+            "Colonização trouxe povos distantes.",
+            "Portugueses iniciaram a colonização.",
+            "Africanos foram trazidos como escravizados.",
+            "Brasil recebeu diferentes influências culturais.",
+            "Miscigenação formou o povo brasileiro.",
+            "Economia colonial era baseada em monocultura.",
+            "Trabalho escravo sustentou a economia.",
+            "Povos indígenas resistiram à colonização.",
+            "Cultura brasileira nasceu da diversidade.",
+            "Colonização deixou marcas sociais até hoje."
+          ],
+          "questions": [
+            {
+              "question": "Os portugueses foram os primeiros colonizadores do Brasil.",
+              "type": "true/false",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Verdadeiro",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Falso",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Os africanos vieram ao Brasil de forma voluntária.",
+              "type": "true/false",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Verdadeiro",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Falso",
+                  "isCorrect": "true"
+                }
+              ]
+            },
+            {
+              "question": "O trabalho escravo sustentou a economia colonial.",
+              "type": "true/false",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Verdadeiro",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Falso",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "A miscigenação não influenciou a cultura brasileira.",
+              "type": "true/false",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Verdadeiro",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Falso",
+                  "isCorrect": "true"
+                }
+              ]
+            },
+            {
+              "question": "A colonização deixou marcas sociais até hoje.",
+              "type": "true/false",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Verdadeiro",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Falso",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Quem trouxe os primeiros colonizadores para o Brasil?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Portugueses",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Espanhóis",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Holandeses",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Franceses",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Os africanos chegaram ao Brasil como:",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Escravizados",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Exploradores",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Missionários",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Guerreiros aliados",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Qual era a base econômica do Brasil colonial?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Monocultura",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Indústria pesada",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Tecnologia",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Turismo",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Quem resistiu à colonização?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Povos indígenas",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Portugueses",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Africanos",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Holandeses",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "A cultura brasileira surgiu da:",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Diversidade de povos",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Cultura europeia apenas",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Sociedade africana apenas",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Tradição asiática",
+                  "isCorrect": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Português",
+          "content": "**Capítulo 14 - Viva as diferenças**\n\n• Páginas: 81, 85, 86, 87 e 88",
+          "icon": "📝",
+          "date": "2025-10-16",
+          "cards": [
+            "A diversidade cultural enriquece a língua.",
+            "Pronomes são essenciais na comunicação.",
+            "Adjetivos qualificam substantivos.",
+            "Verbais indicam ações ou estados.",
+            "Textos apresentam introdução, desenvolvimento e conclusão.",
+            "Pontuação organiza as ideias.",
+            "Concordância é fundamental para clareza.",
+            "Palavras homônimas têm significados diferentes.",
+            "Sinônimos enriquecem a escrita.",
+            "Antônimos ajudam a contrastar ideias."
+          ],
+          "questions": [
+            {
+              "question": "Adjetivos qualificam substantivos.",
+              "type": "true/false",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Verdadeiro",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Falso",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Pronomes não são essenciais na comunicação.",
+              "type": "true/false",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Verdadeiro",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Falso",
+                  "isCorrect": "true"
+                }
+              ]
+            },
+            {
+              "question": "Textos possuem introdução, desenvolvimento e conclusão.",
+              "type": "true/false",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Verdadeiro",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Falso",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "A pontuação atrapalha a organização das ideias.",
+              "type": "true/false",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Verdadeiro",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Falso",
+                  "isCorrect": "true"
+                }
+              ]
+            },
+            {
+              "question": "Concordância é importante para clareza.",
+              "type": "true/false",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Verdadeiro",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Falso",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Qual é um sinônimo de 'feliz'?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Alegre",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Triste",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Bravo",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Cansado",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Qual palavra é antônimo de 'claro'?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Escuro",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Luz",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Brilhante",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Claro demais",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Qual elemento organiza as ideias no texto?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Pontuação",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Substantivo",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Pronome",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Adjetivo",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Qual palavra é homônima?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Manga (fruta e roupa)",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Casa (somente habitação)",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Carro (veículo apenas)",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Água (líquido apenas)",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Palavras homônimas têm significados diferentes.",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Verdadeiro",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Falso",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Depende do contexto",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Nunca",
+                  "isCorrect": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Artes",
+          "content": "**Capítulo 10 - Cultura quilombola em corpo e imagem**\n\n• Páginas: 111, 112, 115 e 119",
+          "icon": "🎨",
+          "date": "2025-10-21",
+          "cards": [
+            "Cultura quilombola expressa resistência.",
+            "A arte representa identidade e memória.",
+            "Corpo e imagem transmitem mensagens.",
+            "Cultura oral preserva tradições.",
+            "Dança e música são elementos culturais.",
+            "Máscaras e pinturas simbolizam histórias.",
+            "Artesanato reflete habilidades manuais.",
+            "Rituais e celebrações fortalecem laços sociais.",
+            "Arte é forma de expressão comunitária.",
+            "Estudos históricos ajudam a compreender a cultura."
+          ],
+          "questions": [
+            {
+              "question": "A cultura quilombola expressa resistência.",
+              "type": "true/false",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Verdadeiro",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Falso",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Artesanato não reflete habilidades manuais.",
+              "type": "true/false",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Verdadeiro",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Falso",
+                  "isCorrect": "true"
+                }
+              ]
+            },
+            {
+              "question": "Dança e música são elementos culturais.",
+              "type": "true/false",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Verdadeiro",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Falso",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Rituais e celebrações não fortalecem laços sociais.",
+              "type": "true/false",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Verdadeiro",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Falso",
+                  "isCorrect": "true"
+                }
+              ]
+            },
+            {
+              "question": "Arte é forma de expressão comunitária.",
+              "type": "true/false",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Verdadeiro",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Falso",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Qual elemento da cultura quilombola preserva tradições oralmente?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Cultura oral",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Pintura digital",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Fotografia moderna",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Cinema",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "O que transmite mensagens na cultura quilombola?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Corpo e imagem",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Computador",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Automóvel",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Telefone",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Qual prática fortalece laços sociais?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Rituais e celebrações",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Leitura individual",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Trabalho isolado",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Jogos online",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "O artesanato quilombola demonstra:",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Habilidades manuais",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Tecnologia digital",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Falta de criatividade",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Negligência artística",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "A arte ajuda a compreender:",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "A cultura e a história",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Somente economia",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Somente política",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Nada",
+                  "isCorrect": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Redação",
+          "content": "**Projeto: Cartaz de Conscientização Ambiental**\n\n• Entrega do Cartaz",
+          "icon": "✍️",
+          "date": "2025-10-13",
+          "supportMaterials": [
+            {
+              "title": "Criar um Cartaz de Conscientização",
+              "type": "text",
+              "url": "<p>Fazer um cartaz de conscientização é uma maneira divertida de contar para todo mundo sobre algo importante! Primeiro, escolha um tema que você quer mostrar, como cuidar do meio ambiente, economizar água ou respeitar os amigos. Depois, pense em uma mensagem curta e fácil de entender – algo que faça as pessoas refletirem rapidinho.<br>Agora vem a parte divertida: a arte! Use cores bem chamativas, desenhos legais e letras grandes para que todo mundo consiga ler de longe. Você pode desenhar figuras, colar recortes ou até usar adesivos. Lembre-se: quanto mais criativo e alegre, mais pessoas vão parar para olhar!<br>Por fim, coloque seu cartaz em um lugar visível, mostre para a turma e explique rapidinho sua mensagem. Pronto! Você acabou de criar um cartaz que pode ensinar e inspirar muitas pessoas.</p>"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
