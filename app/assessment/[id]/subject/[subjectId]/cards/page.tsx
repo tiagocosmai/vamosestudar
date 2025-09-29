@@ -132,36 +132,46 @@ export default function StudyCardsPage() {
       </div>
 
       {/* Navigation Controls */}
-      <div className="flex items-center justify-between mb-6">
-        <button
-          onClick={prevCard}
-          className="flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors"
-        >
-          <ChevronLeft className="h-4 w-4" />
-          Anterior
-        </button>
-
-        <div className="flex gap-2">
+      <div className="space-y-4 mb-6">
+        {/* Card indicators - responsive */}
+        <div className="flex flex-wrap justify-center gap-2 px-2">
           {subject.studyCards.map((_, index) => (
             <button
               key={index}
               onClick={() => goToCard(index)}
-              className={`w-3 h-3 rounded-full transition-colors ${
+              className={`w-8 h-8 rounded-full text-sm font-medium transition-colors ${
                 index === currentCardIndex 
-                  ? 'bg-blue-600' 
-                  : 'bg-gray-300 hover:bg-gray-400'
+                  ? 'bg-blue-600 text-white' 
+                  : 'bg-gray-300 text-gray-600 hover:bg-gray-400'
               }`}
-            />
+            >
+              {index + 1}
+            </button>
           ))}
         </div>
+        
+        {/* Navigation buttons */}
+        <div className="flex items-center justify-between">
+          <button
+            onClick={prevCard}
+            className="flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm"
+          >
+            <ChevronLeft className="h-4 w-4" />
+            Anterior
+          </button>
 
-        <button
-          onClick={nextCard}
-          className="flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors"
-        >
-          Próximo
-          <ChevronRight className="h-4 w-4" />
-        </button>
+          <span className="text-sm text-gray-600 font-medium">
+            {currentCardIndex + 1} de {subject.studyCards.length}
+          </span>
+
+          <button
+            onClick={nextCard}
+            className="flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm"
+          >
+            Próximo
+            <ChevronRight className="h-4 w-4" />
+          </button>
+        </div>
       </div>
 
       {/* Quick Actions */}
