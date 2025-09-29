@@ -538,91 +538,23 @@ export default function SubjectQuizPage() {
 
       {/* Navigation */}
       <div className="space-y-4 mb-6">
-        {/* Question indicators - smart pagination */}
-        <div className="flex justify-center items-center gap-2 px-2">
-          {quizQuestions.length <= 10 ? (
-            // Mostrar todos se forem 10 ou menos
-            quizQuestions.map((_, index) => (
-              <button
-                key={index}
-                onClick={() => goToQuestion(index)}
-                className={`w-8 h-8 rounded-full text-sm font-medium transition-colors ${
-                  index === currentQuestionIndex
-                    ? 'bg-blue-600 text-white'
-                    : userAnswers[index] !== null
-                    ? 'bg-green-600 text-white'
-                    : 'bg-gray-300 text-gray-600 hover:bg-gray-400'
-                }`}
-              >
-                {index + 1}
-              </button>
-            ))
-          ) : (
-            // Paginação inteligente para mais de 10 questões
-            <>
-              {/* Primeira questão */}
-              <button
-                onClick={() => goToQuestion(0)}
-                className={`w-8 h-8 rounded-full text-sm font-medium transition-colors ${
-                  0 === currentQuestionIndex
-                    ? 'bg-blue-600 text-white'
-                    : userAnswers[0] !== null
-                    ? 'bg-green-600 text-white'
-                    : 'bg-gray-300 text-gray-600 hover:bg-gray-400'
-                }`}
-              >
-                1
-              </button>
-
-              {/* Reticências se necessário */}
-              {currentQuestionIndex > 3 && (
-                <span className="text-gray-400 px-1">...</span>
-              )}
-
-              {/* Questões ao redor da atual */}
-              {Array.from({ length: Math.min(5, quizQuestions.length) }, (_, i) => {
-                const start = Math.max(1, Math.min(currentQuestionIndex - 2, quizQuestions.length - 5));
-                const index = start + i;
-                
-                if (index === 0 || index >= quizQuestions.length - 1) return null;
-                
-                return (
-                  <button
-                    key={index}
-                    onClick={() => goToQuestion(index)}
-                    className={`w-8 h-8 rounded-full text-sm font-medium transition-colors ${
-                      index === currentQuestionIndex
-                        ? 'bg-blue-600 text-white'
-                        : userAnswers[index] !== null
-                        ? 'bg-green-600 text-white'
-                        : 'bg-gray-300 text-gray-600 hover:bg-gray-400'
-                    }`}
-                  >
-                    {index + 1}
-                  </button>
-                );
-              })}
-
-              {/* Reticências se necessário */}
-              {currentQuestionIndex < quizQuestions.length - 4 && (
-                <span className="text-gray-400 px-1">...</span>
-              )}
-
-              {/* Última questão */}
-              <button
-                onClick={() => goToQuestion(quizQuestions.length - 1)}
-                className={`w-8 h-8 rounded-full text-sm font-medium transition-colors ${
-                  quizQuestions.length - 1 === currentQuestionIndex
-                    ? 'bg-blue-600 text-white'
-                    : userAnswers[quizQuestions.length - 1] !== null
-                    ? 'bg-green-600 text-white'
-                    : 'bg-gray-300 text-gray-600 hover:bg-gray-400'
-                }`}
-              >
-                {quizQuestions.length}
-              </button>
-            </>
-          )}
+        {/* Question indicators - same style as cards */}
+        <div className="flex flex-wrap justify-center gap-2 px-2 max-w-md mx-auto">
+          {quizQuestions.map((_, index) => (
+            <button
+              key={index}
+              onClick={() => goToQuestion(index)}
+              className={`w-8 h-8 rounded-full text-sm font-medium transition-colors ${
+                index === currentQuestionIndex
+                  ? 'bg-blue-600 text-white'
+                  : userAnswers[index] !== null
+                  ? 'bg-green-600 text-white'
+                  : 'bg-gray-300 text-gray-600 hover:bg-gray-400'
+              }`}
+            >
+              {index + 1}
+            </button>
+          ))}
         </div>
         
         {/* Navigation buttons */}
