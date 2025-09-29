@@ -15,7 +15,7 @@ export default function StudyCardsPage() {
   const [currentCardIndex, setCurrentCardIndex] = useState(0)
 
   useEffect(() => {
-    const data = contentData as ContentData
+    const data = contentData as any
     const assessmentId = parseInt(params.id as string)
     const subjectId = parseInt(params.subjectId as string)
     
@@ -24,7 +24,7 @@ export default function StudyCardsPage() {
       const adaptedAssessment = adaptAssessmentData(rawAssessment)
       if (adaptedAssessment.subjects[subjectId]) {
         setAssessment(adaptedAssessment)
-        setSubject(adaptedAssessment.subjects[subjectId])
+        setSubject(adaptedAssessment.subjects[subjectId] as Subject)
       }
     }
   }, [params.id, params.subjectId])

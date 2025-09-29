@@ -22,7 +22,7 @@ export default function AssessmentPage() {
   }, [])
 
   useEffect(() => {
-    const data = contentData as ContentData
+    const data = contentData as any
     const assessmentId = parseInt(params.id as string)
     const rawAssessment = data.assessments[assessmentId]
     
@@ -90,7 +90,7 @@ export default function AssessmentPage() {
   }
 
   // Sort subjects alphabetically
-  const sortedSubjects = [...assessment.subjects].sort((a, b) => a.name.localeCompare(b.name))
+  const sortedSubjects = [...assessment.subjects].sort((a: any, b: any) => a.name.localeCompare(b.name))
 
   // Função para alternar expansão do conteúdo da disciplina
   const toggleSubjectContent = (originalIndex: number) => {
@@ -181,7 +181,7 @@ export default function AssessmentPage() {
               </svg>
               Calendário de Provas por Disciplina
               <span className="text-sm font-normal text-gray-500 ml-2">
-                ({assessment.subjects.filter(subject => subject.date).length} {assessment.subjects.filter(subject => subject.date).length === 1 ? 'prova' : 'provas'})
+                ({assessment.subjects.filter((subject: any) => subject.date).length} {assessment.subjects.filter((subject: any) => subject.date).length === 1 ? 'prova' : 'provas'})
               </span>
             </h2>
             <div className="flex items-center gap-2">
@@ -211,9 +211,9 @@ export default function AssessmentPage() {
                   </thead>
                   <tbody>
                     {assessment.subjects
-                      .filter(subject => subject.date) // Filtrar apenas disciplinas com data
-                      .sort((a, b) => new Date(a.date!).getTime() - new Date(b.date!).getTime()) // Ordenar por data
-                      .map((subject, index) => {
+                      .filter((subject: any) => subject.date) // Filtrar apenas disciplinas com data
+                      .sort((a: any, b: any) => new Date(a.date!).getTime() - new Date(b.date!).getTime()) // Ordenar por data
+                      .map((subject: any, index: number) => {
                         const { dayMonth, weekDay } = formatDateForCalendar(subject.date!)
                         return (
                           <tr key={index} className="border-b border-gray-100 hover:bg-gray-50 transition-colors">
@@ -240,7 +240,7 @@ export default function AssessmentPage() {
                   </tbody>
                 </table>
                 
-                {assessment.subjects.filter(subject => subject.date).length === 0 && (
+                {assessment.subjects.filter((subject: any) => subject.date).length === 0 && (
                   <div className="text-center py-8 text-gray-500">
                     <p>Nenhuma data de prova cadastrada para as disciplinas.</p>
                   </div>
@@ -279,9 +279,9 @@ export default function AssessmentPage() {
 
       {/* Subjects Grid */}
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-        {sortedSubjects.map((subject, sortedIndex) => {
+        {sortedSubjects.map((subject: any, sortedIndex: number) => {
           // Encontrar o índice original da disciplina no array não ordenado
-          const originalIndex = assessment.subjects.findIndex(s => s.name === subject.name)
+          const originalIndex = assessment.subjects.findIndex((s: any) => s.name === subject.name)
           
           return (
           <div key={sortedIndex} className="bg-white rounded-lg shadow-md overflow-hidden">

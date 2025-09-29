@@ -250,7 +250,7 @@ export default function FullAssessmentQuizPage() {
             <div className="mt-6 pt-6 border-t border-gray-200">
               <h3 className="text-lg font-semibold text-gray-800 mb-4">Desempenho por Disciplina</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                {assessment.subjects.map(subject => {
+                {assessment.subjects.map((subject: any) => {
                   const subjectQuestions = quizResult.answers.filter(
                     answer => (answer.question as QuestionWithSubject).subjectName === subject.name
                   )

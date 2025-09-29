@@ -23,9 +23,9 @@ export default function HomePage() {
   useEffect(() => {
     const data = contentData as any
     const enabledAssessments = data.assessments
-      .filter(assessment => assessment.enabled)
-      .map(rawAssessment => adaptAssessmentData(rawAssessment))
-      .sort((a, b) => new Date(a.examDate!).getTime() - new Date(b.examDate!).getTime())
+      .filter((assessment: any) => assessment.enabled)
+      .map((rawAssessment: any) => adaptAssessmentData(rawAssessment))
+      .sort((a: any, b: any) => new Date(a.examDate!).getTime() - new Date(b.examDate!).getTime())
     
     setAssessments(enabledAssessments)
     setFilteredAssessments(enabledAssessments)

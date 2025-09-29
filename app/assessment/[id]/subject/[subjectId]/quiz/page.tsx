@@ -38,7 +38,7 @@ export default function SubjectQuizPage() {
       if (adaptedAssessment.subjects[subjectId]) {
         const subjectData = adaptedAssessment.subjects[subjectId]
         setAssessment(adaptedAssessment)
-        setSubject(subjectData)
+        setSubject(subjectData as Subject)
       }
     }
   }, [params.id, params.subjectId])
