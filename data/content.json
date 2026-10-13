@@ -1869,6 +1869,3180 @@
           ]
         }
       ]
+    },
+    {
+      "title": "Verificações Oficiais 2º Trimestre - 5º Ano",
+      "course": "5º Ano do ensino fundamental I",
+      "school": "Instituto Portortinari",
+      "examDate": null,
+      "AnotherInfo": "<p>O calendário de provas deste trimestre ainda não foi definido. As datas serão incluídas assim que a escola divulgar.</p>",
+      "enabled": true,
+      "order": 1,
+      "subjects": [
+        {
+          "title": "Ciências",
+          "content": "**Capítulo 11 — O caminho dos alimentos**\n• Dentes e sistemas do corpo humano\n• Sistema digestório: ingestão, digestão, absorção e eliminação\n• Órgãos anexos, bile, microbiota e eixo intestino-cérebro",
+          "cards": [
+            {
+              "title": "Qual é a função do sistema digestório?",
+              "description": "Transformar alimentos, absorver nutrientes e eliminar resíduos."
+            },
+            {
+              "title": "Qual é o caminho do alimento?",
+              "description": "Boca → faringe → esôfago → estômago → intestino delgado → intestino grosso → ânus."
+            },
+            {
+              "title": "Onde começa a digestão?",
+              "description": "Na boca, com mastigação e ação da saliva."
+            },
+            {
+              "title": "O que é bolo alimentar?",
+              "description": "Alimento mastigado e misturado à saliva."
+            },
+            {
+              "title": "Qual é a função do esôfago?",
+              "description": "Conduzir o bolo alimentar ao estômago por movimentos peristálticos."
+            },
+            {
+              "title": "O que são movimentos peristálticos?",
+              "description": "Contrações involuntárias que empurram o alimento pelo tubo digestório."
+            },
+            {
+              "title": "O que ocorre no estômago?",
+              "description": "O alimento se mistura ao suco gástrico e vira uma pasta chamada quimo."
+            },
+            {
+              "title": "Onde ocorre a maior parte da absorção de nutrientes?",
+              "description": "No intestino delgado, de onde os nutrientes passam ao sangue."
+            },
+            {
+              "title": "O que faz o intestino grosso?",
+              "description": "Absorve parte da água restante e participa da formação das fezes."
+            },
+            {
+              "title": "Como os resíduos saem do corpo?",
+              "description": "As fezes são eliminadas pelo ânus."
+            },
+            {
+              "title": "O que é digestão mecânica?",
+              "description": "Quebra física do alimento em pedaços menores, como na mastigação."
+            },
+            {
+              "title": "O que é digestão química?",
+              "description": "Transformação dos alimentos por substâncias e sucos digestivos."
+            },
+            {
+              "title": "Quais são os principais órgãos anexos?",
+              "description": "Glândulas salivares, fígado, vesícula biliar e pâncreas."
+            },
+            {
+              "title": "Onde a bile é produzida e armazenada?",
+              "description": "Produzida no fígado e armazenada na vesícula biliar."
+            },
+            {
+              "title": "Como a bile ajuda na digestão?",
+              "description": "Emulsifica as gorduras, dividindo-as em gotículas menores; não é uma enzima."
+            },
+            {
+              "title": "Por que água e óleo se separam?",
+              "description": "Porque não se misturam facilmente; o óleo, menos denso, fica acima da água."
+            },
+            {
+              "title": "O que faz o detergente no experimento com óleo?",
+              "description": "Dispersa o óleo em pequenas gotículas, simulando a emulsificação pela bile."
+            },
+            {
+              "title": "O que é microbiota intestinal?",
+              "description": "Conjunto de microrganismos que vivem no intestino, muitos benéficos."
+            },
+            {
+              "title": "O que é o eixo intestino-cérebro?",
+              "description": "Comunicação entre o intestino e o sistema nervoso, relacionada também ao humor."
+            },
+            {
+              "title": "Como cuidar da saúde intestinal?",
+              "description": "Consumir fibras e água, praticar atividades físicas e evitar uso inadequado de medicamentos."
+            },
+            {
+              "title": "Como evitar cáries?",
+              "description": "Escovar os dentes com creme dental fluoretado, usar fio dental e visitar o dentista."
+            },
+            {
+              "title": "Por que o intestino delgado tem dobras?",
+              "description": "Para ampliar a superfície de contato e facilitar a absorção de nutrientes."
+            }
+          ],
+          "questions": [
+            {
+              "question": "Onde começa a digestão?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Boca",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Estômago",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Intestino grosso",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Fígado",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Qual órgão conduz o bolo alimentar até o estômago?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Pâncreas",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Esôfago",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 3,
+                  "description": "Fígado",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Intestino",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "O que é digestão mecânica?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Absorver água",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Quebrar alimentos em pedaços menores",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 3,
+                  "description": "Produzir bile",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Eliminar fezes",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Qual substância inicia a digestão química na boca?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Bile",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Suco gástrico",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Saliva",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 4,
+                  "description": "Suco pancreático",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "O que acontece no estômago?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Absorção da maior parte dos nutrientes",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Mistura com suco gástrico",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 3,
+                  "description": "Formação das fezes",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Produção de saliva",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Onde ocorre a maior parte da absorção de nutrientes?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Intestino delgado",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Boca",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Esôfago",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Intestino grosso",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Qual órgão absorve parte da água restante e forma as fezes?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Faringe",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Estômago",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Intestino grosso",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 4,
+                  "description": "Pâncreas",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Por onde as fezes são eliminadas?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Esôfago",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Ânus",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 3,
+                  "description": "Faringe",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Estômago",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Qual órgão produz a bile?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Fígado",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Vesícula biliar",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Pâncreas",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Estômago",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Onde a bile fica armazenada?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Esôfago",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Boca",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Vesícula biliar",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 4,
+                  "description": "Intestino grosso",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Qual é a principal função da bile na digestão?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Transformar água em gordura",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Emulsionar gorduras em gotículas menores",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 3,
+                  "description": "Produzir dentes",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Absorver oxigênio",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Qual destes é um órgão anexo?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Esôfago",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Intestino grosso",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Pâncreas",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 4,
+                  "description": "Faringe",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "O que é microbiota intestinal?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Conjunto de dentes",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Conjunto de microrganismos do intestino",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 3,
+                  "description": "Tipo de suco gástrico",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Parte do esôfago",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Qual hábito favorece a saúde intestinal?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Pouca água e poucas fibras",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Uso indiscriminado de laxantes",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Alimentação com fibras e água",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 4,
+                  "description": "Sedentarismo",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "O que significa eixo intestino-cérebro?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Ligação entre intestino e sistema nervoso",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Tubo que liga boca e estômago",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Parte da língua",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Nome do fígado",
+                  "isCorrect": "false"
+                }
+              ]
+            }
+          ],
+          "supportMaterials": [
+            {
+              "title": "Página 12 — O caminho dos alimentos",
+              "type": "image",
+              "url": "/data/5ano-2tri/ciencias/01.jpeg"
+            },
+            {
+              "title": "Página 13 — Dentes de leite",
+              "type": "image",
+              "url": "/data/5ano-2tri/ciencias/02.jpeg"
+            },
+            {
+              "title": "Sistemas do corpo humano",
+              "type": "image",
+              "url": "/data/5ano-2tri/ciencias/03.jpeg"
+            },
+            {
+              "title": "Página 15 — Sistema digestório",
+              "type": "image",
+              "url": "/data/5ano-2tri/ciencias/04.jpeg"
+            },
+            {
+              "title": "Órgãos do sistema digestório",
+              "type": "image",
+              "url": "/data/5ano-2tri/ciencias/05.jpeg"
+            },
+            {
+              "title": "Página 17 — O caminho do alimento",
+              "type": "image",
+              "url": "/data/5ano-2tri/ciencias/06.jpeg"
+            },
+            {
+              "title": "Página 18 — Etapas da digestão",
+              "type": "image",
+              "url": "/data/5ano-2tri/ciencias/07.jpeg"
+            },
+            {
+              "title": "Página 19 — Digestão mecânica e química",
+              "type": "image",
+              "url": "/data/5ano-2tri/ciencias/08.jpeg"
+            },
+            {
+              "title": "Experimento da bile",
+              "type": "image",
+              "url": "/data/5ano-2tri/ciencias/09.jpeg"
+            },
+            {
+              "title": "Página 21 — Perguntas do experimento",
+              "type": "image",
+              "url": "/data/5ano-2tri/ciencias/10.jpeg"
+            },
+            {
+              "title": "Absorção e eliminação",
+              "type": "image",
+              "url": "/data/5ano-2tri/ciencias/11.jpeg"
+            },
+            {
+              "title": "Intestino, humor e imunidade",
+              "type": "image",
+              "url": "/data/5ano-2tri/ciencias/12.jpeg"
+            },
+            {
+              "title": "Questões sobre o intestino",
+              "type": "image",
+              "url": "/data/5ano-2tri/ciencias/13.jpeg"
+            },
+            {
+              "title": "Página 25 — Exercícios",
+              "type": "image",
+              "url": "/data/5ano-2tri/ciencias/14.jpeg"
+            },
+            {
+              "title": "Página 26 — Para relembrar",
+              "type": "image",
+              "url": "/data/5ano-2tri/ciencias/15.jpeg"
+            },
+            {
+              "title": "Página 27 — Neste capítulo",
+              "type": "image",
+              "url": "/data/5ano-2tri/ciencias/16.jpeg"
+            }
+          ]
+        },
+        {
+          "title": "Matemática",
+          "content": "**Frações e porcentagem**\n• Adição, subtração, multiplicação e divisão de frações\n• Cálculo de porcentagem, desconto e situações-problema",
+          "cards": [
+            {
+              "title": "Como somar frações de mesmo denominador?",
+              "description": "Some os numeradores e mantenha o denominador: 2/7 + 3/7 = 5/7."
+            },
+            {
+              "title": "Como somar frações com denominadores diferentes?",
+              "description": "Encontre um denominador comum e some as frações equivalentes."
+            },
+            {
+              "title": "Quanto é 1/3 + 2/5?",
+              "description": "5/15 + 6/15 = 11/15."
+            },
+            {
+              "title": "Quanto é 1/3 + 2/4?",
+              "description": "2/6 + 3/6 = 5/6."
+            },
+            {
+              "title": "Quanto é 2/5 + 1/2?",
+              "description": "4/10 + 5/10 = 9/10."
+            },
+            {
+              "title": "Quanto é 1 2/3 + 3/2?",
+              "description": "5/3 + 3/2 = 10/6 + 9/6 = 19/6 = 3 1/6."
+            },
+            {
+              "title": "Quanto é 1/2 − 1/3?",
+              "description": "3/6 − 2/6 = 1/6."
+            },
+            {
+              "title": "Quanto é 4/3 − 1/2?",
+              "description": "8/6 − 3/6 = 5/6."
+            },
+            {
+              "title": "Quanto é 7/4 − 1 1/3?",
+              "description": "21/12 − 16/12 = 5/12."
+            },
+            {
+              "title": "Quanto é 4/5 − 1/2?",
+              "description": "8/10 − 5/10 = 3/10."
+            },
+            {
+              "title": "Como multiplicar duas frações?",
+              "description": "Multiplique numerador por numerador e denominador por denominador."
+            },
+            {
+              "title": "Quanto é 5/9 × 1/4?",
+              "description": "5/36."
+            },
+            {
+              "title": "Como dividir uma fração por outra?",
+              "description": "Multiplique a primeira pelo inverso da segunda."
+            },
+            {
+              "title": "Quanto é 1/3 ÷ 2/3?",
+              "description": "1/3 × 3/2 = 1/2."
+            },
+            {
+              "title": "Quanto é 5/8 ÷ 4/7?",
+              "description": "5/8 × 7/4 = 35/32."
+            },
+            {
+              "title": "O que significa 25%?",
+              "description": "25 em cada 100, equivalente a 1/4."
+            },
+            {
+              "title": "Quanto é 12% de R$ 600?",
+              "description": "R$ 72,00; 10% = 60 e 2% = 12."
+            },
+            {
+              "title": "Qual o preço de R$ 600 com 12% de desconto?",
+              "description": "R$ 528,00."
+            },
+            {
+              "title": "Quanto é 35% de 400?",
+              "description": "140."
+            },
+            {
+              "title": "Quanto é 75% de 400?",
+              "description": "300."
+            },
+            {
+              "title": "Quanto é 85% de 400?",
+              "description": "340."
+            },
+            {
+              "title": "Quanto é 3,5% de 20.000?",
+              "description": "700."
+            },
+            {
+              "title": "Quanto é 25% de 800?",
+              "description": "200."
+            },
+            {
+              "title": "Quanto é 15% de 600?",
+              "description": "90."
+            },
+            {
+              "title": "Quanto é 60% de 200?",
+              "description": "120; os outros 40% correspondem a 80."
+            },
+            {
+              "title": "Quanto custa 50% de um bolo de R$ 18?",
+              "description": "R$ 9,00."
+            },
+            {
+              "title": "Quanto custa 25% de um bolo de R$ 18?",
+              "description": "R$ 4,50."
+            },
+            {
+              "title": "Como transformar número misto em fração imprópria?",
+              "description": "Multiplique o inteiro pelo denominador e some o numerador: 2 1/3 = 7/3."
+            }
+          ],
+          "questions": [
+            {
+              "question": "Quanto é 1/2 + 1/4?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "2/6",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "3/4",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 3,
+                  "description": "1/8",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "1/4",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Quanto é 1/3 + 2/5?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "3/8",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "7/15",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "11/15",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 4,
+                  "description": "2/15",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Quanto é 1/2 − 1/3?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "1/6",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "0",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "2/5",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "1/5",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Quanto é 4/5 − 1/2?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "3/10",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "3/3",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "1/10",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "1/5",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Quanto é 1/2 × 1/3?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "2/5",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "1/6",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 3,
+                  "description": "1/5",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "3/2",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Quanto é 1/2 ÷ 2?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "1",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "1/4",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 3,
+                  "description": "2/2",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "4",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Quanto é 1/3 ÷ 2/3?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "1/2",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "2/9",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "3/2",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "1/9",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Quanto é 25% de 400?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "25",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "75",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "100",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 4,
+                  "description": "125",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Quanto é 15% de 600?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "60",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "90",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 3,
+                  "description": "120",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "150",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Quanto é 70% de 120?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "36",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "70",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "84",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 4,
+                  "description": "96",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Um bolo custa R$ 18. Quanto é 50% dele?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "R$ 6",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "R$ 9",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 3,
+                  "description": "R$ 12",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "R$ 15",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Uma bicicleta de R$ 600 tem 12% de desconto. Qual o desconto?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "R$ 60",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "R$ 62",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "R$ 72",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 4,
+                  "description": "R$ 120",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Quanto custa a bicicleta de R$ 600 após desconto de 12%?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "R$ 528",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "R$ 572",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "R$ 588",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "R$ 480",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Quanto é 1 2/3 + 3/2?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "2 1/6",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "3 1/6",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 3,
+                  "description": "3/5",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "4 1/3",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "3,5% de 20.000 corresponde a quanto?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "70",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "350",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "700",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 4,
+                  "description": "7.000",
+                  "isCorrect": "false"
+                }
+              ]
+            }
+          ],
+          "supportMaterials": [
+            {
+              "title": "Página 43 — Operações com frações",
+              "type": "image",
+              "url": "/data/5ano-2tri/matematica/01.jpeg"
+            },
+            {
+              "title": "Adição e subtração de frações",
+              "type": "image",
+              "url": "/data/5ano-2tri/matematica/02.jpeg"
+            },
+            {
+              "title": "Porcentagem no dia a dia",
+              "type": "image",
+              "url": "/data/5ano-2tri/matematica/03.jpeg"
+            },
+            {
+              "title": "Porcentagem de um valor",
+              "type": "image",
+              "url": "/data/5ano-2tri/matematica/04.jpeg"
+            },
+            {
+              "title": "Página 52 — Desconto e porcentagem",
+              "type": "image",
+              "url": "/data/5ano-2tri/matematica/05.jpeg"
+            },
+            {
+              "title": "Página 53 — Situações-problema",
+              "type": "image",
+              "url": "/data/5ano-2tri/matematica/06.jpeg"
+            }
+          ]
+        },
+        {
+          "title": "História",
+          "content": "**China e Índia**\n• A importância dos rios para as sociedades asiáticas\n• China Antiga: rios Amarelo e Azul, arroz, escrita, seda e dinastias\n• Índia: rios Indo e Ganges, hinduísmo e especiarias",
+          "cards": [
+            {
+              "title": "O que são fontes históricas?",
+              "description": "Vestígios que ajudam a conhecer o passado: documentos, fotos, objetos, relatos e construções."
+            },
+            {
+              "title": "Qual a diferença entre fonte escrita e oral?",
+              "description": "Escrita é registrada em texto; oral é transmitida por fala ou depoimento."
+            },
+            {
+              "title": "Por que comparar fontes históricas?",
+              "description": "Porque fontes podem apresentar perspectivas diferentes sobre o mesmo acontecimento."
+            },
+            {
+              "title": "O que é uma linha do tempo?",
+              "description": "Representação de acontecimentos em ordem cronológica."
+            },
+            {
+              "title": "O que significa cronologia?",
+              "description": "Organização dos fatos conforme a sequência do tempo."
+            },
+            {
+              "title": "O que é patrimônio cultural material?",
+              "description": "Bens físicos importantes para a memória, como edifícios e objetos."
+            },
+            {
+              "title": "O que é patrimônio cultural imaterial?",
+              "description": "Saberes, festas, músicas, danças e tradições transmitidos entre gerações."
+            },
+            {
+              "title": "Por que preservar o patrimônio cultural?",
+              "description": "Para valorizar a memória e as diferentes identidades de uma sociedade."
+            },
+            {
+              "title": "O que é cidadania?",
+              "description": "Exercício de direitos e deveres na vida em sociedade."
+            },
+            {
+              "title": "Por que existem regras de convivência?",
+              "description": "Para organizar a vida coletiva e respeitar os direitos das pessoas."
+            },
+            {
+              "title": "O que é diversidade cultural?",
+              "description": "Presença de diferentes modos de viver, costumes, línguas e tradições."
+            },
+            {
+              "title": "O que é memória coletiva?",
+              "description": "Lembranças e histórias compartilhadas por um grupo ou comunidade."
+            },
+            {
+              "title": "O que são mudanças e permanências históricas?",
+              "description": "Mudanças são transformações; permanências são aspectos que continuam ao longo do tempo."
+            },
+            {
+              "title": "Como uma fotografia pode ser fonte histórica?",
+              "description": "Ela registra pessoas, lugares e costumes de determinada época."
+            },
+            {
+              "title": "Por que ouvir pessoas mais velhas pode ajudar a estudar História?",
+              "description": "Seus relatos trazem lembranças e experiências sobre outras épocas."
+            }
+          ],
+          "questions": [
+            {
+              "question": "Em qual continente surgiu a civilização da China Antiga?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Europa",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Ásia",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 3,
+                  "description": "África",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "América",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Qual rio é conhecido como Rio Amarelo?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Nilo",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Huang He",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 3,
+                  "description": "Amazonas",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Tigre",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Por que rios foram importantes para civilizações antigas?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Impediam agricultura",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Forneciam água e favoreciam cultivo",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 3,
+                  "description": "Eliminavam comércio",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Eram apenas fronteiras",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Qual era uma importante atividade econômica da China Antiga?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Agricultura",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Indústria automobilística",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Aviação",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Informática",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Qual produto ficou especialmente associado à China Antiga?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Petróleo refinado",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Seda",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 3,
+                  "description": "Plástico",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Borracha sintética",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "A Rota da Seda favorecia principalmente:",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Trocas comerciais e culturais",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Fim das viagens",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Desaparecimento das cidades",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Isolamento completo",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "O que é uma dinastia?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Um rio",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Sequência de governantes de uma família",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 3,
+                  "description": "Um tipo de escrita",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Uma religião",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Na China Antiga, a escrita ajudava a:",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Registrar informações",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Substituir a agricultura",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Criar eletricidade",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Impedir comércio",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Qual é uma característica dos impérios antigos?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Não tinham governantes",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Reuniam territórios e povos sob um poder",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 3,
+                  "description": "Eram sempre democracias atuais",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Não cobravam tributos",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "A Grande Muralha da China foi construída principalmente para:",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Servir de pista de corrida",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Auxiliar a defesa de territórios",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 3,
+                  "description": "Armazenar água",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Produzir papel",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Que inovação foi desenvolvida na China Antiga?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Papel",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Internet",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Telefone celular",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Motor a jato",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "O que significa estudar fontes históricas?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Inventar o passado",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Analisar vestígios e registros",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 3,
+                  "description": "Ignorar documentos",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Estudar só o presente",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Qual destas pode ser uma fonte histórica?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Uma inscrição antiga",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Uma previsão sem provas",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Uma opinião sem registro",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Um sonho",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "A expansão dos impérios pode provocar:",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Contato entre diferentes culturas",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Fim de todas as trocas",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Ausência de conflitos",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Igualdade automática",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Por que estudar sociedades antigas?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Para compreender transformações ao longo do tempo",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Para decorar somente datas",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Para prever exatamente o futuro",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Para ignorar culturas",
+                  "isCorrect": "false"
+                }
+              ]
+            }
+          ],
+          "supportMaterials": [
+            {
+              "title": "Página 15 — Volta ao mundo em um prato",
+              "type": "image",
+              "url": "/data/5ano-2tri/historia/01.jpeg"
+            },
+            {
+              "title": "Página 16 — Rumo à Ásia",
+              "type": "image",
+              "url": "/data/5ano-2tri/historia/02.jpeg"
+            },
+            {
+              "title": "Página 17 — Um gigante da Ásia: a China",
+              "type": "image",
+              "url": "/data/5ano-2tri/historia/03.jpeg"
+            },
+            {
+              "title": "Página 18 — A civilização do arroz",
+              "type": "image",
+              "url": "/data/5ano-2tri/historia/04.jpeg"
+            },
+            {
+              "title": "Os saberes da China Antiga",
+              "type": "image",
+              "url": "/data/5ano-2tri/historia/05.jpeg"
+            },
+            {
+              "title": "Pesquisa: a cultura chinesa no dia a dia",
+              "type": "image",
+              "url": "/data/5ano-2tri/historia/06.jpeg"
+            },
+            {
+              "title": "O rio sagrado",
+              "type": "image",
+              "url": "/data/5ano-2tri/historia/07.jpeg"
+            },
+            {
+              "title": "A seca do rio Ganges",
+              "type": "image",
+              "url": "/data/5ano-2tri/historia/08.jpeg"
+            },
+            {
+              "title": "Os temperos da Índia",
+              "type": "image",
+              "url": "/data/5ano-2tri/historia/09.jpeg"
+            },
+            {
+              "title": "Página 29 — Agora é com você",
+              "type": "image",
+              "url": "/data/5ano-2tri/historia/10.jpeg"
+            },
+            {
+              "title": "Página 32 — Para relembrar: a China",
+              "type": "image",
+              "url": "/data/5ano-2tri/historia/11.jpeg"
+            },
+            {
+              "title": "Página 33 — A caminho da Índia",
+              "type": "image",
+              "url": "/data/5ano-2tri/historia/12.jpeg"
+            }
+          ]
+        },
+        {
+          "title": "Geografia",
+          "content": "**Capítulo 7 — As cidades são diferentes**\n• Cidades naturais e planejadas\n• Funções das cidades: histórica, turística, portuária e outras\n• Economia, urbanização, centro, periferia e imagens de satélite",
+          "cards": [
+            {
+              "title": "O que é paisagem?",
+              "description": "Tudo o que podemos perceber em um lugar, incluindo elementos naturais e humanos."
+            },
+            {
+              "title": "O que é paisagem natural?",
+              "description": "Paisagem com predomínio de elementos da natureza, como rios e montanhas."
+            },
+            {
+              "title": "O que é paisagem humanizada?",
+              "description": "Paisagem transformada pelas ações das pessoas, com ruas e construções."
+            },
+            {
+              "title": "O que é espaço geográfico?",
+              "description": "Espaço produzido e transformado pelas relações entre sociedade e natureza."
+            },
+            {
+              "title": "Qual a diferença entre zona rural e urbana?",
+              "description": "A rural costuma concentrar atividades agropecuárias; a urbana, comércio, serviços e indústrias."
+            },
+            {
+              "title": "O que é migração?",
+              "description": "Deslocamento de pessoas de um lugar para outro, temporário ou permanente."
+            },
+            {
+              "title": "O que é urbanização?",
+              "description": "Crescimento das cidades e da proporção de pessoas que vivem nelas."
+            },
+            {
+              "title": "O que são recursos naturais?",
+              "description": "Elementos da natureza utilizados pelas pessoas, como água, solo e minerais."
+            },
+            {
+              "title": "O que é coleta seletiva?",
+              "description": "Separação de resíduos por tipo para facilitar reciclagem e destinação adequada."
+            },
+            {
+              "title": "Qual a diferença entre reutilizar e reciclar?",
+              "description": "Reutilizar é usar novamente; reciclar é transformar material em nova matéria-prima."
+            },
+            {
+              "title": "O que é decomposição?",
+              "description": "Processo de transformação da matéria por fatores naturais e organismos decompositores."
+            },
+            {
+              "title": "Por que descartar pilhas corretamente?",
+              "description": "Elas podem conter substâncias prejudiciais ao solo e à água."
+            },
+            {
+              "title": "O que são pontos cardeais?",
+              "description": "Norte, sul, leste e oeste: direções de orientação."
+            },
+            {
+              "title": "Para que serve a legenda de um mapa?",
+              "description": "Para explicar símbolos e cores utilizados no mapa."
+            },
+            {
+              "title": "Por que é importante economizar água?",
+              "description": "Porque a água própria para consumo exige proteção e tratamento, e não é ilimitada."
+            }
+          ],
+          "questions": [
+            {
+              "question": "O que é urbanização?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Crescimento da população e dos espaços urbanos",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Formação de rios",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Desaparecimento do comércio",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Redução de cidades a zero",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Qual é um exemplo de espaço rural?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Centro comercial",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Área de cultivo agrícola",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 3,
+                  "description": "Avenida com arranha-céus",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Estação de metrô",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Qual atividade predomina em muitas áreas urbanas?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Comércio e serviços",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Plantio em grandes fazendas",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Extração manual apenas",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Pecuária extensiva",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "O que é paisagem geográfica?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Apenas natureza sem pessoas",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Tudo que percebemos no espaço",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 3,
+                  "description": "Somente mapas",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Apenas prédios",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Qual é um elemento natural da paisagem?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Rio",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Viaduto",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Prédio",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Asfalto",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Qual é um elemento humanizado da paisagem?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Montanha",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Rio",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Ponte",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 4,
+                  "description": "Nuvem",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Qual consequência pode ocorrer com urbanização sem planejamento?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Melhoria garantida de tudo",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Falta de saneamento e moradia adequada",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 3,
+                  "description": "Fim da poluição",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Ausência de trânsito",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "O que é saneamento básico?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Apenas construção de estradas",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Serviços de água, esgoto, resíduos e drenagem",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 3,
+                  "description": "Somente transporte público",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Plantação de árvores",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "O que é êxodo rural?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Mudança da cidade para o campo",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Mudança do campo para a cidade",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 3,
+                  "description": "Viagem de férias",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Migração entre países apenas",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Para que serve um mapa?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Representar espacialmente lugares",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Substituir fotografias sempre",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Medir temperatura corporal",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Produzir chuva",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Qual elemento ajuda a explicar símbolos em mapas?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Legenda",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Rodapé",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Parágrafo",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Título do livro",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "O que é uma metrópole?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Uma cidade de grande influência regional",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Uma vila sem serviços",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Qualquer fazenda",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Uma floresta",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Qual problema está associado à impermeabilização do solo urbano?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Maior infiltração sempre",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Aumento de risco de enchentes",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 3,
+                  "description": "Fim das chuvas",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Criação de montanhas",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Uma atitude que melhora o ambiente urbano é:",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Jogar lixo nos rios",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Ampliar áreas verdes",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 3,
+                  "description": "Descartar resíduos na rua",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Desmatar margens de rios",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Campo e cidade se relacionam porque:",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Não trocam nada",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Trocam produtos, serviços e pessoas",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 3,
+                  "description": "Têm funções idênticas",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "São completamente isolados",
+                  "isCorrect": "false"
+                }
+              ]
+            }
+          ],
+          "supportMaterials": [
+            {
+              "title": "Página 98 — As cidades são diferentes",
+              "type": "image",
+              "url": "/data/5ano-2tri/geografia/01.jpeg"
+            },
+            {
+              "title": "Página 99 — Maringá e Bento Gonçalves",
+              "type": "image",
+              "url": "/data/5ano-2tri/geografia/02.jpeg"
+            },
+            {
+              "title": "Página 100 — Cidades naturais e planejadas",
+              "type": "image",
+              "url": "/data/5ano-2tri/geografia/03.jpeg"
+            },
+            {
+              "title": "Página 101 — Funções das cidades",
+              "type": "image",
+              "url": "/data/5ano-2tri/geografia/04.jpeg"
+            },
+            {
+              "title": "Página 103 — Cidade espontânea e planejada",
+              "type": "image",
+              "url": "/data/5ano-2tri/geografia/05.jpeg"
+            },
+            {
+              "title": "Funções das cidades",
+              "type": "image",
+              "url": "/data/5ano-2tri/geografia/06.jpeg"
+            },
+            {
+              "title": "Página 105 — A cidade de Salvador",
+              "type": "image",
+              "url": "/data/5ano-2tri/geografia/07.jpeg"
+            },
+            {
+              "title": "Página 106 — Construindo juntos",
+              "type": "image",
+              "url": "/data/5ano-2tri/geografia/08.jpeg"
+            },
+            {
+              "title": "Página 107 — Desenvolvimento e economia",
+              "type": "image",
+              "url": "/data/5ano-2tri/geografia/09.jpeg"
+            },
+            {
+              "title": "Urbanização",
+              "type": "image",
+              "url": "/data/5ano-2tri/geografia/10.jpeg"
+            },
+            {
+              "title": "Página 109 — Centro e periferia",
+              "type": "image",
+              "url": "/data/5ano-2tri/geografia/11.jpeg"
+            },
+            {
+              "title": "Crescimento das cidades",
+              "type": "image",
+              "url": "/data/5ano-2tri/geografia/12.jpeg"
+            },
+            {
+              "title": "Página 111 — Porto Velho por satélite",
+              "type": "image",
+              "url": "/data/5ano-2tri/geografia/13.jpeg"
+            },
+            {
+              "title": "Página 113 — Imagens de satélite",
+              "type": "image",
+              "url": "/data/5ano-2tri/geografia/14.jpeg"
+            },
+            {
+              "title": "Página 114 — Para relembrar",
+              "type": "image",
+              "url": "/data/5ano-2tri/geografia/15.jpeg"
+            },
+            {
+              "title": "Página 115 — Neste capítulo",
+              "type": "image",
+              "url": "/data/5ano-2tri/geografia/16.jpeg"
+            }
+          ]
+        },
+        {
+          "title": "Espanhol",
+          "content": "**Lección 5 — ¿En qué tú trabajas?**\n• Profissões\n• Verbo trabajar",
+          "cards": [
+            {
+              "title": "Como se diz “bom dia” em espanhol?",
+              "description": "Buenos días."
+            },
+            {
+              "title": "Como se diz “boa tarde” em espanhol?",
+              "description": "Buenas tardes."
+            },
+            {
+              "title": "Como se diz “boa noite” em espanhol?",
+              "description": "Buenas noches."
+            },
+            {
+              "title": "O que significa “¿Cómo te llamas?”",
+              "description": "Como você se chama?"
+            },
+            {
+              "title": "Como responder “¿Cómo estás?”",
+              "description": "Por exemplo: Estoy bien, gracias."
+            },
+            {
+              "title": "O que significa “gracias”?",
+              "description": "Obrigado(a)."
+            },
+            {
+              "title": "Como se diz “por favor” em espanhol?",
+              "description": "Por favor."
+            },
+            {
+              "title": "Como se diz “água” em espanhol?",
+              "description": "Agua."
+            },
+            {
+              "title": "O que significa “desayuno”?",
+              "description": "Café da manhã."
+            },
+            {
+              "title": "O que significa “almuerzo”?",
+              "description": "Almoço."
+            },
+            {
+              "title": "O que significa “cena”?",
+              "description": "Jantar."
+            },
+            {
+              "title": "Como se diz “maçã” em espanhol?",
+              "description": "Manzana."
+            },
+            {
+              "title": "O que significa “escuela”?",
+              "description": "Escola."
+            },
+            {
+              "title": "Como se diz “segunda-feira” em espanhol?",
+              "description": "Lunes."
+            },
+            {
+              "title": "Como se diz “sexta-feira” em espanhol?",
+              "description": "Viernes."
+            },
+            {
+              "title": "O que significa “rojo”?",
+              "description": "Vermelho."
+            },
+            {
+              "title": "O que significa “amarillo”?",
+              "description": "Amarelo."
+            },
+            {
+              "title": "O que significa “izquierda”?",
+              "description": "Esquerda."
+            },
+            {
+              "title": "O que significa “derecha”?",
+              "description": "Direita."
+            },
+            {
+              "title": "Como se diz “eu tenho dez anos” em espanhol?",
+              "description": "Tengo diez años."
+            }
+          ],
+          "questions": [
+            {
+              "question": "Como se diz “bom dia” em espanhol?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Buenas noches",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Buenos días",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 3,
+                  "description": "Hasta luego",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Gracias",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Qual é a tradução de “gracias”?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Por favor",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Obrigado(a)",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 3,
+                  "description": "Desculpa",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Olá",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Como se diz “água” em espanhol?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Leche",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Pan",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Agua",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 4,
+                  "description": "Jugo",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Qual palavra significa “maçã”?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Manzana",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Naranja",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Pera",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Uva",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "“¿Cómo estás?” significa:",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Onde você mora?",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Como você está?",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 3,
+                  "description": "Quantos anos você tem?",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Qual seu nome?",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Como se diz “eu me chamo Ana”?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Tengo Ana",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Me llamo Ana",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 3,
+                  "description": "Soy años Ana",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Estoy nombre Ana",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Qual é a tradução de “escuela”?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Escola",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Escritório",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Escada",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Esquilo",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "“Rojo” é qual cor?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Azul",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Verde",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Vermelho",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 4,
+                  "description": "Amarelo",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Qual número é “quince”?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "5",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "10",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "15",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 4,
+                  "description": "50",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Como se diz “segunda-feira” em espanhol?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Lunes",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Martes",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Jueves",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Viernes",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "“El hermano” significa:",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "O primo",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "O irmão",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 3,
+                  "description": "O pai",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "O avô",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Qual é a tradução de “libro”?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Lápis",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Livro",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 3,
+                  "description": "Mesa",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Caderno",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "“Tengo diez años” significa:",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Tenho dez anos",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Tenho dez livros",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "São dez horas",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Tenho dez irmãos",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Qual palavra significa “casa” em espanhol?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Calle",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Casa",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 3,
+                  "description": "Coche",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Cama",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Como se diz “até logo” em espanhol?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Hasta luego",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Buenos días",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "De nada",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Lo siento",
+                  "isCorrect": "false"
+                }
+              ]
+            }
+          ],
+          "supportMaterials": [
+            {
+              "title": "Página 58 — ¿En qué tú trabajas?",
+              "type": "image",
+              "url": "/data/5ano-2tri/espanhol/01.jpeg"
+            },
+            {
+              "title": "Página 59 — Profissões",
+              "type": "image",
+              "url": "/data/5ano-2tri/espanhol/02.jpeg"
+            },
+            {
+              "title": "Página 60 — ¿Cómo se escribe?",
+              "type": "image",
+              "url": "/data/5ano-2tri/espanhol/03.jpeg"
+            },
+            {
+              "title": "Página 61 — Verbo trabajar",
+              "type": "image",
+              "url": "/data/5ano-2tri/espanhol/04.jpeg"
+            },
+            {
+              "title": "Página 64 — ¡Ahora a practicar!",
+              "type": "image",
+              "url": "/data/5ano-2tri/espanhol/05.jpeg"
+            },
+            {
+              "title": "Página 65 — ¿Qué quieres ser de grande?",
+              "type": "image",
+              "url": "/data/5ano-2tri/espanhol/06.jpeg"
+            },
+            {
+              "title": "Página 67 — Perguntas sobre as profissões",
+              "type": "image",
+              "url": "/data/5ano-2tri/espanhol/07.jpeg"
+            }
+          ]
+        },
+        {
+          "title": "Interpretação de Texto",
+          "content": "**Leitura e compreensão**\n• Tema, ideia principal e informações explícitas e implícitas\n• Fato, opinião, inferência e conectivos\n• Textos informativos e instrucionais",
+          "cards": [
+            {
+              "title": "O que é o tema de um texto?",
+              "description": "O assunto principal de que ele trata."
+            },
+            {
+              "title": "O que é a ideia principal?",
+              "description": "A informação central que o autor quer comunicar."
+            },
+            {
+              "title": "O que é uma informação explícita?",
+              "description": "Algo declarado diretamente no texto."
+            },
+            {
+              "title": "O que é uma informação implícita?",
+              "description": "Algo que podemos deduzir a partir de pistas do texto."
+            },
+            {
+              "title": "O que significa inferir?",
+              "description": "Chegar a uma conclusão com base em pistas e conhecimentos."
+            },
+            {
+              "title": "O que é fato?",
+              "description": "Informação que pode ser verificada."
+            },
+            {
+              "title": "O que é opinião?",
+              "description": "Avaliação ou ponto de vista de alguém."
+            },
+            {
+              "title": "Para que serve o título?",
+              "description": "Apresentar ou antecipar o assunto e despertar interesse."
+            },
+            {
+              "title": "Qual a função de uma legenda de imagem?",
+              "description": "Explicar ou contextualizar a imagem."
+            },
+            {
+              "title": "O que é um parágrafo?",
+              "description": "Conjunto de frases que desenvolvem uma ideia no texto."
+            },
+            {
+              "title": "O que é um texto informativo?",
+              "description": "Texto que apresenta informações ou explicações sobre um assunto."
+            },
+            {
+              "title": "O que é um texto instrucional?",
+              "description": "Texto que orienta como fazer algo, como receita ou experimento."
+            },
+            {
+              "title": "Qual a finalidade de um anúncio?",
+              "description": "Divulgar uma ideia, produto, serviço ou campanha e persuadir o público."
+            },
+            {
+              "title": "O que indica a palavra “portanto”?",
+              "description": "Uma conclusão em relação ao que foi dito antes."
+            },
+            {
+              "title": "O que indica a palavra “porém”?",
+              "description": "Uma oposição ou contraste entre ideias."
+            },
+            {
+              "title": "O que indica “porque” em uma explicação?",
+              "description": "Uma causa ou justificativa."
+            },
+            {
+              "title": "Como identificar a sequência de fatos?",
+              "description": "Observar expressões de tempo e a ordem dos acontecimentos."
+            },
+            {
+              "title": "Por que reler um trecho pode ajudar?",
+              "description": "Para conferir informações e evitar interpretações precipitadas."
+            },
+            {
+              "title": "Qual a diferença entre resumo e cópia?",
+              "description": "Resumo apresenta ideias essenciais com menos palavras; cópia reproduz o original."
+            },
+            {
+              "title": "Como justificar uma resposta de interpretação?",
+              "description": "Apontando pistas ou trechos do texto que sustentam a conclusão."
+            }
+          ],
+          "questions": [
+            {
+              "question": "Leia: “Lia levou um guarda-chuva porque o céu estava escuro.” Por que ela levou o guarda-chuva?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Porque fazia calor",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Porque havia possibilidade de chuva",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 3,
+                  "description": "Porque ia nadar",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Porque perdeu a bolsa",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Leia: “Pedro estudou durante a semana e foi bem na prova.” O que aconteceu depois de estudar?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Faltou à aula",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Foi bem na prova",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 3,
+                  "description": "Mudou de escola",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Perdeu o caderno",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Leia: “A praça estava silenciosa, exceto pelo canto dos pássaros.” Que som havia?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Carros",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Música alta",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Pássaros",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 4,
+                  "description": "Sirene",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Leia: “Embora estivesse cansada, Sofia terminou a leitura.” A palavra “embora” indica:",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Contraste",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Lugar",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Quantidade",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Personagem",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Leia: “O cachorro correu atrás da bola e a trouxe de volta.” O que ele trouxe?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "A coleira",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "A bola",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 3,
+                  "description": "A comida",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "A água",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Leia: “O ônibus atrasou; por isso, chegamos depois do horário.” Qual é a causa do atraso na chegada?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Chuva mencionada",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Ônibus atrasado",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 3,
+                  "description": "Relógio quebrado",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Falta de ingresso",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Leia: “Marina regou a planta todos os dias. Depois de semanas, surgiram flores.” O que aconteceu com a planta?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Secou imediatamente",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Deu flores",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 3,
+                  "description": "Virou árvore no mesmo dia",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Foi cortada",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Em um texto informativo, o objetivo principal costuma ser:",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Apresentar informações",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Vender sempre",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Contar apenas piadas",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Dar ordens obrigatoriamente",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Leia: “Não toque na tinta fresca!” Esse enunciado é principalmente:",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Uma orientação",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Uma notícia esportiva",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Uma receita",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Um poema",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Leia: “As ruas pareciam rios após a tempestade.” Essa expressão sugere:",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Muita água nas ruas",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Ruas secas",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Rios desaparecidos",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Uma festa",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Leia: “João esqueceu o casaco e sentiu frio.” Qual informação é explícita?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "João mora na serra",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "João esqueceu o casaco",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 3,
+                  "description": "Era inverno",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Estava nevando",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Leia: “O livro era tão interessante que Bia não percebeu a hora passar.” Podemos inferir que Bia:",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Não gostou do livro",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Ficou envolvida na leitura",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 3,
+                  "description": "Dormiu imediatamente",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Perdeu o livro",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Leia: “Primeiro, lave as mãos. Depois, prepare o lanche.” Qual ação vem antes?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Preparar o lanche",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Lavar as mãos",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 3,
+                  "description": "Guardar o lanche",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Lavar a louça",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Leia: “O jardim tinha rosas, margaridas e girassóis.” Qual é o assunto da frase?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Flores do jardim",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 2,
+                  "description": "Animais domésticos",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 3,
+                  "description": "Meios de transporte",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Esportes",
+                  "isCorrect": "false"
+                }
+              ]
+            },
+            {
+              "question": "Leia: “A biblioteca fechará às 17 horas.” Qual informação é apresentada?",
+              "type": "alternatives",
+              "options": [
+                {
+                  "id": 1,
+                  "description": "Endereço",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 2,
+                  "description": "Horário de fechamento",
+                  "isCorrect": "true"
+                },
+                {
+                  "id": 3,
+                  "description": "Nome do bibliotecário",
+                  "isCorrect": "false"
+                },
+                {
+                  "id": 4,
+                  "description": "Preço dos livros",
+                  "isCorrect": "false"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -13,7 +13,7 @@ export interface Question {
 
 export interface SupportMaterial {
   title: string;
-  type: 'link' | 'document' | 'video' | 'text';
+  type: 'link' | 'document' | 'video' | 'text' | 'image';
   url?: string;
   content?: string;
 }

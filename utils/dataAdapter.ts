@@ -13,6 +13,7 @@ function getSubjectIcon(subjectName: string): string {
   if (name.includes('português') || name.includes('portugues')) return '📝'
   if (name.includes('artes')) return '🎨'
   if (name.includes('redação') || name.includes('redacao')) return '✍️'
+  if (name.includes('interpretação') || name.includes('interpretacao')) return '🔎'
   if (name.includes('física') || name.includes('fisica')) return '⚛️'
   if (name.includes('química') || name.includes('quimica')) return '🧪'
   if (name.includes('biologia')) return '🧬'
@@ -66,7 +67,9 @@ export function adaptAssessmentData(rawAssessment: any): Assessment {
     course: rawAssessment.course,
     school: rawAssessment.school,
     schoolLogo,
-    examDate: rawAssessment.examDate || rawAssessment.date || '2024-12-01',
+    examDate: rawAssessment.examDate === null
+      ? undefined
+      : (rawAssessment.examDate || rawAssessment.date || '2024-12-01'),
     anotherInfo: rawAssessment.anotherInfo || rawAssessment.AnotherInfo || '',
     enabled: rawAssessment.enabled,
     order: rawAssessment.order,

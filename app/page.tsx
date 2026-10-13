@@ -9,8 +9,8 @@ import { adaptAssessmentData } from '@/utils/dataAdapter'
 import contentData from '@/data/content.json'
 
 export default function HomePage() {
-  const [assessments, setAssessments] = useState<Assessment[]>([])
-  const [filteredAssessments, setFilteredAssessments] = useState<Assessment[]>([])
+  const [assessments, setAssessments] = useState<Array<{ assessment: Assessment; originalIndex: number }>>([])
+  const [filteredAssessments, setFilteredAssessments] = useState<Array<{ assessment: Assessment; originalIndex: number }>>([])
   const [schoolFilter, setSchoolFilter] = useState<string>('')
   const [courseFilter, setCourseFilter] = useState<string>('')
   const [isClient, setIsClient] = useState(false)
@@ -23,9 +23,17 @@ export default function HomePage() {
   useEffect(() => {
     const data = contentData as any
     const enabledAssessments = data.assessments
-      .filter((assessment: any) => assessment.enabled)
-      .map((rawAssessment: any) => adaptAssessmentData(rawAssessment))
-      .sort((a: any, b: any) => new Date(a.examDate!).getTime() - new Date(b.examDate!).getTime())
+      .map((rawAssessment: any, originalIndex: number) => ({
+        assessment: adaptAssessmentData(rawAssessment),
+        originalIndex,
+        enabled: rawAssessment.enabled
+      }))
+      .filter((item: any) => item.enabled)
+      .sort((a: any, b: any) => {
+        const aTime = a.assessment.examDate ? new Date(a.assessment.examDate).getTime() : Number.MAX_SAFE_INTEGER
+        const bTime = b.assessment.examDate ? new Date(b.assessment.examDate).getTime() : Number.MAX_SAFE_INTEGER
+        return aTime - bTime
+      })
     
     setAssessments(enabledAssessments)
     setFilteredAssessments(enabledAssessments)
@@ -35,22 +43,22 @@ export default function HomePage() {
     let filtered = assessments
 
     if (schoolFilter) {
-      filtered = filtered.filter(assessment => 
-        assessment.school.toLowerCase().includes(schoolFilter.toLowerCase())
+      filtered = filtered.filter(item => 
+        item.assessment.school.toLowerCase().includes(schoolFilter.toLowerCase())
       )
     }
 
     if (courseFilter) {
-      filtered = filtered.filter(assessment => 
-        assessment.course.toLowerCase().includes(courseFilter.toLowerCase())
+      filtered = filtered.filter(item => 
+        item.assessment.course.toLowerCase().includes(courseFilter.toLowerCase())
       )
     }
 
     setFilteredAssessments(filtered)
   }, [schoolFilter, courseFilter, assessments])
 
-  const schools = Array.from(new Set(assessments.map(a => a.school)))
-  const courses = Array.from(new Set(assessments.map(a => a.course)))
+  const schools = Array.from(new Set(assessments.map(item => item.assessment.school)))
+  const courses = Array.from(new Set(assessments.map(item => item.assessment.course)))
 
   const formatDate = (dateString: string) => {
     // Criar data de forma consistente para evitar problemas de timezone
@@ -148,7 +156,7 @@ export default function HomePage() {
           {(() => {
             // Coletar todas as disciplinas de todas as avaliações filtradas
             const allSubjects: any[] = []
-            filteredAssessments.forEach((assessment, assessmentIndex) => {
+            filteredAssessments.forEach(({ assessment, originalIndex }) => {
               if (Array.isArray(assessment.subjects)) {
                 assessment.subjects.forEach((subject: any) => {
                   if (subject && (subject.name || subject.title) && subject.date) {
@@ -157,7 +165,7 @@ export default function HomePage() {
                       date: subject.date,
                       icon: subject.icon,
                       assessmentTitle: assessment.title,
-                      assessmentIndex,
+                      assessmentIndex: originalIndex,
                       school: assessment.school
                     })
                   }
@@ -198,10 +206,10 @@ export default function HomePage() {
 
       {/* Assessments Grid */}
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-        {filteredAssessments.map((assessment, index) => (
+        {filteredAssessments.map(({ assessment, originalIndex }) => (
           <Link
-            key={index}
-            href={`/assessment/${index}`}
+            key={originalIndex}
+            href={`/assessment/${originalIndex}`}
             className="group"
           >
             <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden">
@@ -231,7 +239,7 @@ export default function HomePage() {
                 <div className="space-y-2 text-sm text-gray-600">
                   <div className="flex items-center gap-2">
                     <Calendar className="h-4 w-4" />
-                    <span>Data: {formatDate(assessment.examDate || '2024-12-01')}</span>
+                    <span>{assessment.examDate ? `Data: ${formatDate(assessment.examDate)}` : 'Calendário de provas ainda não definido'}</span>
                   </div>
                   
                   <div className="flex items-center gap-2">
