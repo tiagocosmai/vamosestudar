@@ -133,7 +133,7 @@ export default function AssessmentPage() {
             <div className="space-y-1 text-gray-600">
               <p className="text-lg font-medium">{assessment.school}</p>
               <p>{assessment.course}</p>
-              <p>Data da prova: {formatDate(assessment.examDate || '2024-12-01')}</p>
+              <p>{assessment.examDate ? `Data da prova: ${formatDate(assessment.examDate)}` : 'Calendário de provas ainda não definido'}</p>
             </div>
           </div>
         </div>

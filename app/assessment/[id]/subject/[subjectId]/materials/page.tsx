@@ -12,6 +12,7 @@ export default function SupportMaterialsPage() {
   const params = useParams()
   const [assessment, setAssessment] = useState<Assessment | null>(null)
   const [subject, setSubject] = useState<Subject | null>(null)
+  const [imageIndex, setImageIndex] = useState(0)
 
   useEffect(() => {
     const data = contentData as any
@@ -24,6 +25,7 @@ export default function SupportMaterialsPage() {
       if (adaptedAssessment.subjects[subjectId]) {
         setAssessment(adaptedAssessment)
         setSubject(adaptedAssessment.subjects[subjectId] as Subject)
+        setImageIndex(0)
       }
     }
   }, [params.id, params.subjectId])
@@ -116,9 +118,53 @@ export default function SupportMaterialsPage() {
         </div>
       </div>
 
+      {(() => {
+        const imageMaterials = subject.supportMaterials.filter((material) => material.type === 'image' && material.url)
+        if (imageMaterials.length === 0) return null
+        const current = imageMaterials[Math.min(imageIndex, imageMaterials.length - 1)]
+        return (
+          <div className="bg-white rounded-lg shadow-md overflow-hidden mb-8">
+            <div className="bg-purple-600 p-4 text-white flex items-center justify-between gap-3">
+              <div>
+                <h2 className="font-bold text-lg">Páginas do material</h2>
+                <p className="text-sm text-purple-100">{current.title}</p>
+              </div>
+              <span className="bg-white/20 px-3 py-1 rounded-full text-sm whitespace-nowrap">
+                {Math.min(imageIndex, imageMaterials.length - 1) + 1} de {imageMaterials.length}
+              </span>
+            </div>
+            <div className="p-4">
+              <img
+                src={current.url}
+                alt={current.title}
+                className="w-full max-h-[75vh] object-contain rounded-lg bg-gray-50"
+              />
+              <div className="flex gap-3 mt-4">
+                <button
+                  type="button"
+                  onClick={() => setImageIndex((index) => Math.max(0, index - 1))}
+                  disabled={imageIndex === 0}
+                  className="flex-1 bg-gray-100 text-gray-800 py-3 rounded-lg disabled:opacity-40"
+                >
+                  Anterior
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setImageIndex((index) => Math.min(imageMaterials.length - 1, index + 1))}
+                  disabled={imageIndex >= imageMaterials.length - 1}
+                  className="flex-1 bg-purple-600 text-white py-3 rounded-lg disabled:opacity-40"
+                >
+                  Próxima
+                </button>
+              </div>
+            </div>
+          </div>
+        )
+      })()}
+
       {/* Materials Grid */}
       <div className="space-y-6">
-        {subject.supportMaterials.map((material, index) => {
+        {subject.supportMaterials.filter((material) => material.type !== 'image').map((material, index) => {
           if (material.type === 'text') {
             // Renderizar material de texto como painel HTML
             return (
