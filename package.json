@@ -9,6 +9,7 @@
     "build:clean": "rm -rf .next && NEXT_TELEMETRY_DISABLED=1 next build",
     "start": "next start",
     "lint": "next lint",
+    "test": "node --test tests/*.test.cjs",
     "clean": "rm -rf .next && rm -rf node_modules/.cache"
   },
   "dependencies": {

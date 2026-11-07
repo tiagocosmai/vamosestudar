@@ -38,3 +38,20 @@ body {
     text-wrap: balance;
   }
 }
+
+/* Resumos divididos em páginas, com HTML editorial local. */
+.study-summary h3 {
+  color: #581c87;
+  font-weight: 700;
+  font-size: 1.125rem;
+  margin: 1.5rem 0 0.75rem;
+}
+.study-summary h3:first-child { margin-top: 0; }
+.study-summary p { margin-bottom: 1rem; }
+.study-summary ul, .study-summary ol { padding-left: 1.5rem; margin: 1rem 0; }
+.study-summary ul { list-style: disc; }
+.study-summary ol { list-style: decimal; }
+.study-summary li { margin-bottom: 0.75rem; }
+.study-summary details { background: #faf5ff; padding: 1rem; border-radius: 0.5rem; margin: 1rem 0; }
+.study-summary summary { cursor: pointer; color: #6b21a8; font-weight: 600; }
+.study-summary details[open] summary { margin-bottom: 0.75rem; }

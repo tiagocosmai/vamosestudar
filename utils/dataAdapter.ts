@@ -155,7 +155,9 @@ function adaptQuestion(rawQuestion: any): Question | null {
     return {
       question: questionText,
       type: 'boolean',
-      correctAnswer
+      correctAnswer,
+      explanation: rawQuestion.explanation,
+      source: rawQuestion.source
     }
   } else {
     // Para questões de múltipla escolha
@@ -166,7 +168,9 @@ function adaptQuestion(rawQuestion: any): Question | null {
       question: questionText,
       type: 'multiple',
       options,
-      correctAnswer: correctIndex
+      correctAnswer: correctIndex,
+      explanation: rawQuestion.explanation,
+      source: rawQuestion.source
     }
   }
 }

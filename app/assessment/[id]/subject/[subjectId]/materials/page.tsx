@@ -7,6 +7,7 @@ import { ArrowLeft, FileText, ExternalLink, Video, Download } from 'lucide-react
 import { Assessment, Subject, ContentData } from '@/types'
 import { adaptAssessmentData } from '@/utils/dataAdapter'
 import contentData from '@/data/content.json'
+import StudySummary from '@/components/StudySummary'
 
 export default function SupportMaterialsPage() {
   const params = useParams()
@@ -166,6 +167,9 @@ export default function SupportMaterialsPage() {
       <div className="space-y-6">
         {subject.supportMaterials.filter((material) => material.type !== 'image').map((material, index) => {
           if (material.type === 'text') {
+            if (material.pages?.length) {
+              return <StudySummary key={`${params.id}-${params.subjectId}-${index}`} title={material.title} pages={material.pages} source={material.source} />
+            }
             // Renderizar material de texto como painel HTML
             return (
               <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden">
@@ -221,6 +225,7 @@ export default function SupportMaterialsPage() {
                 </p>
 
                 {material.url && (
+                  <>
                   <a
                     href={material.url}
                     target="_blank"
@@ -229,9 +234,17 @@ export default function SupportMaterialsPage() {
                   >
                     {getIconForMaterialType(material.type)}
                     {material.type === 'video' && 'Assistir Vídeo'}
-                    {material.type === 'document' && 'Baixar Documento'}
+                    {material.type === 'document' && 'Consultar PDF'}
                     {material.type === 'link' && 'Acessar Link'}
                   </a>
+                  {material.type === 'document' && material.url.startsWith('/') && (
+                    <a href={material.url} download
+                      className="w-full mt-3 inline-flex items-center justify-center gap-2 text-green-800 border border-green-600 py-3 px-4 rounded-lg hover:bg-green-50">
+                      <Download className="h-5 w-5" />
+                      Baixar PDF
+                    </a>
+                  )}
+                  </>
                 )}
               </div>
             </div>
