@@ -9,6 +9,13 @@ export interface Question {
   type: 'multiple' | 'boolean';
   options?: string[];
   correctAnswer: number | boolean;
+  explanation?: string;
+  source?: string;
+}
+
+export interface StudySummaryPage {
+  title: string;
+  content: string;
 }
 
 export interface SupportMaterial {
@@ -16,6 +23,8 @@ export interface SupportMaterial {
   type: 'link' | 'document' | 'video' | 'text' | 'image';
   url?: string;
   content?: string;
+  pages?: StudySummaryPage[];
+  source?: string;
 }
 
 export interface Subject {

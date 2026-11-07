@@ -342,6 +342,13 @@ export default function FullAssessmentQuizPage() {
                       </div>
                     </div>
                   )}
+                  {result.question.explanation && (
+                    <div className="mt-4 rounded-lg bg-blue-50 p-4 text-gray-800">
+                      <p className="font-semibold text-blue-900 mb-1">Entenda a resposta</p>
+                      <p className="leading-relaxed">{result.question.explanation}</p>
+                      {result.question.source && <p className="mt-2 text-sm text-gray-600">Base de estudo: {result.question.source}</p>}
+                    </div>
+                  )}
                 </div>
               </div>
             </div>
