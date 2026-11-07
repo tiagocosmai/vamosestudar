@@ -86,6 +86,25 @@ vercel
 
 ## 📝 Configuração do Conteúdo
 
+### Compliance — Unicesumar
+
+O material de Compliance está organizado em nove temas numerados, com 135 flashcards,
+180 questões originais comentadas e 27 páginas de resumos em Materiais de Apoio.
+As referências seguem a paginação dos PDFs fornecidos; o conteúdo é uma síntese para
+estudo dos materiais, e as questões não são oficiais da instituição.
+
+Os arquivos originais ficam em `public/data/unicesumar/`, com consulta e download.
+A identificação institucional usa `logo-unicesumar.svg`, uma versão vetorial monocromática do símbolo.
+Fonte vetorial: [LogoDownload](https://logodownload.org/unicesumar-logo/).
+
+Materiais do tipo `text` podem usar `pages: [{ title, content }]` para leitura paginada
+e `source` para referência. O formato anterior com `content` continua disponível.
+Questões no formato de dados existente podem incluir `explanation` e `source`;
+esses campos são exibidos apenas na correção dos simulados.
+
+Execute `pnpm test` para conferir adaptação, gabaritos, contagens e arquivos locais,
+`pnpm exec tsc --noEmit` para verificar tipos e `pnpm build` para compilar.
+
 Edite o arquivo `data/content.json` para adicionar suas avaliações:
 
 ```json
